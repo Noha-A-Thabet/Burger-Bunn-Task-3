@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* start header */
+header {
+    height: 800px;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    background-color: gray;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+/* start main */
+
+.main {
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* end main */
+
+/* strat logo */
+.logo {
+    float: left;
+    width: 40%;
+
+}
+
+.logo img {
+    width: 30px;
+}
+
+.logo h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    margin-top: -25px;
+    margin-left: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* end logo */
+
+/* start balck_div */
+.black_div {
+    width: 100%;
+    height: 820px;
+    background-color: rgba(0, 0, 0, 0.363);
+    margin-top: -520px;
+}
+
+/* end balck_div */
+
+/* start menu */
+.menu {
+    float: right;
+    padding: 5px;
+}
+
+.menu span {
+    color: white;
+    text-transform: capitalize;
+    padding: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu span:nth-of-type(1) {
+    color: orange;
+}
+
+/* end menu */
+
+/* start clear */
+.clear {
+    clear: both;
+}
+
+/* end clear */
+
+/* start info */
+.info {
+
+    float: left;
+    margin-top: 140px;
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+.info h3 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 25px
+}
+
+.info h3 span {
+    text-transform: lowercase;
+}
+
+.info h2 {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 60px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.info p {
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+.info button {
+    background-color: orange;
+    border: transparent;
+    padding: 8px 18px;
+    margin: 10px 10px 10px 0;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.info button:last-of-type {
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+
+/* end info */
+/* end header */
+
+/* start section */
+.section1 {
+    background-color: lightgray;
+    height: 400px;
+}
+
+.section1 .center {
+    margin: auto;
+    width: 70%;
+    height: 400px;
+}
+
+
+.section1 .box {
+    width: 30%;
+    text-align: center;
+    float: left;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1.6%;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 50px;
+}
+
+.section1 .box img {
+    width: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.section1 .box h3 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.section1 .box p {
+    margin-bottom: 20px;
+}
+
+.section1 .box h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* end section */
+
+/* start description */
+.description {
+
+    height: 500px;
+}
+
+.description .center {
+    overflow: hidden;
+
+    width: 70%;
+    margin: auto;
+    height: 500px;
+}
+
+.description .ingredients {
+    float: left;
+    margin-top: 30px;
+}
+
+.description .ingredients ul li {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 50px 0 10px 7px
+}
+
+.description .ingredients ul li::before {
+    content: '\2661';
+    color: orange;
+    font-size: 20px;
+}
+
+
+.description .burger_img {
+    float: right;
+
+}
+
+.description .burger_img img {
+    height: 500px;
+}
+
+/* end description */
+
+/* strat callus */
+.callUs {
+    background-image: url(../images/bg.jpg);
+    height: 350px;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+}
+
+.callUs .center {
+    text-align: center;
+
+}
+
+.callUs h3 {
+    color: lightgray;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.callUs h3 span {
+    color: orange
+}
+
+
+.callUs .center button {
+    background-color: orange;
+    border: transparent;
+    padding: 8px 18px;
+
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin: 10px 50px;
+
+}
+
+.callUs .center button:last-child {
+    background-color: transparent;
+    color: orange;
+    margin-left: -30px;
+    border: 1px solid orange
+}
+
+/* end callus */
+/* start footer */
+footer {
+    height: 50px;
+    background-color: black;
+    color: white;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* end footer */
